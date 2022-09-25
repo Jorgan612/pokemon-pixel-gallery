@@ -22,6 +22,20 @@
   background-color: #000;
 }
 
+.white {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+.gray {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #cdcdcd;
+  background-color: #cdcdcd;
+}
+
 .blank-pixel {
   height: 20px;
   width: 20px;
@@ -83,4 +97,25 @@
   width: 20px;
   border: 2px solid #184a4a;
   background-color: #184a4a;
+}
+
+.red-1 {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ff6a62;
+  background-color: #ff6a62;
+}
+
+.red-2 {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ee2039;
+  background-color: #ee2039;
+}
+
+.red-3 {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ac0031;
+  background-color: #ac0031;
 }
