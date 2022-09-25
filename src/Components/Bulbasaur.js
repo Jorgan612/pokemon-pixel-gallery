@@ -300,9 +300,9 @@ const Bulbasaur = () => {
         <div className='green-1'></div>
         <div className='green-1'></div>
         <div className='green-1'></div>
-        <div className='green-3'></div>
-        <div className='green-3'></div>
-        <div className='green-3'></div>
+        <div className='green-2'></div>
+        <div className='green-2'></div>
+        <div className='green-2'></div>
         <div className='green-4'></div>
         <div className='green-3'></div>
         <div className='green-3'></div>
