@@ -11,7 +11,7 @@
 }
 
 .row-name {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   color: #fff;
   border: 2px solid red;
 }
@@ -39,91 +39,91 @@
 }
 
 .black {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid $black, none);
   background-color: $black;
 }
 
 .white {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid $white, none);
   background-color: $white;
 }
 
 .gray {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid $gray, none);
   background-color: $gray;
 }
 
 .blank-pixel {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #333, none);
   border: 2px solid red;
 }
 
 .green-1 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #bdff73, none);
   background-color: #bdff73;
 }
 // WHAT IS COLOR GREEN 2
 .green-2 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #a4d541, none);
   background-color: #a4d541;
 }
 
 .green-3 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #73ac31, none);
   background-color: #73ac31;
 }
 
 .green-4 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #526229, none);
   background-color: #526229;
 }
 
 .teal-1 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #83eec5, none);
   background-color: #83eec5;
 }
 
 .teal-2 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #62d5b4, none);
   background-color: #62d5b4;
 }
 
 .teal-3 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #317373, none);
   background-color: #317373;
 }
 
 .teal-4 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #184a4a, none);
   background-color: #184a4a;
 }
 
 .red-1 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #ff6a62, none);
   background-color: #ff6a62;
 }
 
 .red-2 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #ee2039, none);
   background-color: #ee2039;
 }
 
 .red-3 {
-  @include heightAndWidth(20px, 20px);
+  @include heightAndWidth($height, $width);
   @include border(2px solid #ac0031, none);
   background-color: #ac0031;
 }

@@ -728,6 +728,7 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
       </div>
+      {/* completed row 19 next row is 20 'bulba nose' row */}
     </div>
   )
 }
