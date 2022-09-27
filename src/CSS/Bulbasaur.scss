@@ -4,10 +4,17 @@
 @import '_BulbaVariables.scss';
 
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .pokemon-container {
-  @include flexbox(column, center, center);
-  @include heightAndWidth(90vh, 100vw);
+  @include flexbox(column, flex-start, center);
+  @include heightAndWidth(200vh, 100vw);
   background-color: #333;
+  padding: 5em;
 }
 
 .row-name {
@@ -34,7 +41,21 @@
 .row16,
 .row17,
 .row18,
-.row19 {
+.row19,
+.row20,
+.row21,
+.row22,
+.row23,
+.row24,
+.row25,
+.row26,
+.row27,
+.row28,
+.row29,
+.row30,
+.row31,
+.row32,
+.row33 {
   display: flex;
 }
 
