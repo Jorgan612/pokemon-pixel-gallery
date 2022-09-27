@@ -6,8 +6,7 @@ const Bulbasaur = () => {
 
   return (
     <div className="pokemon-container">
-      <div className='row1'>
-        <div className='row-name'>1</div>
+      <div className='row1'> 
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -45,7 +44,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row2'>
-        <div className='row-name'>2</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -83,7 +81,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row3'>
-        <div className='row-name'>3</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -121,7 +118,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row4'>
-        <div className='row-name'>4</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -159,7 +155,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row5'>
-        <div className='row-name'>5</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -197,7 +192,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row6'>
-        <div className='row-name'>6</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -235,7 +229,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row7'>
-        <div className='row-name'>7</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
@@ -273,7 +266,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row8'>
-        <div className='row-name'>8</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
@@ -311,7 +303,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row9'>
-        <div className='row-name'>9</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
@@ -349,7 +340,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row10'>
-        <div className='row-name'>10</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
@@ -387,7 +377,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row11'>
-        <div className='row-name'>11</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
@@ -425,7 +414,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row12'>
-        <div className='row-name'>12</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
@@ -463,7 +451,6 @@ const Bulbasaur = () => {
         <div className='black'></div>
       </div>
       <div className='row13'>
-        <div className='row-name'>13</div>
         <div className='blank-pixel'></div>
         <div className='teal-3'></div>
         <div className='teal-4'></div>
@@ -501,7 +488,6 @@ const Bulbasaur = () => {
         <div className='black'></div>
       </div>
       <div className='row14'>
-        <div className='row-name'>14</div>
         <div className='blank-pixel'></div>
         <div className='teal-4'></div>
         <div className='red-2'></div>
@@ -539,7 +525,6 @@ const Bulbasaur = () => {
         <div className='black'></div>
       </div>
       <div className='row15'>
-        <div className='row-name'>15</div>
         <div className='blank-pixel'></div>
         <div className='teal-4'></div>
         <div className='red-2'></div>
@@ -577,7 +562,6 @@ const Bulbasaur = () => {
         <div className='black'></div>
       </div>
       <div className='row16'>
-        <div className='row-name'>16</div>
         <div className='teal-3'></div>
         <div className='gray'></div>
         <div className='red-2'></div>
@@ -615,7 +599,6 @@ const Bulbasaur = () => {
         <div className='black'></div>
       </div>
       <div className='row17'>
-        <div className='row-name'>17</div>
         <div className='teal-3'></div>
         <div className='white'></div>
         <div className='red-3'></div>
@@ -653,7 +636,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row18'>
-        <div className='row-name'>18</div>
         <div className='teal-3'></div>
         <div className='teal-2'></div>
         <div className='red-3'></div>
@@ -691,7 +673,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row19'>
-        <div className='row-name'>19</div>
         <div className='teal-4'></div>
         <div className='black'></div>
         <div className='teal-2'></div>
@@ -729,7 +710,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row20'>
-        <div className='row-name'>20</div>
         <div className='teal-4'></div>
         <div className='teal-3'></div>
         <div className='black'></div>
@@ -767,7 +747,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row21'>
-        <div className='row-name'>21</div>
         <div className='blank-pixel'></div>
         <div className='teal-4'></div>
         <div className='teal-3'></div>
@@ -805,7 +784,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row22'>
-        <div className='row-name'>22</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='teal-4'></div>
@@ -843,7 +821,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row23'>
-        <div className='row-name'>23</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -881,7 +858,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row24'>
-        <div className='row-name'>24</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -919,7 +895,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row25'>
-        <div className='row-name'>25</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -957,7 +932,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row26'>
-        <div className='row-name'>26</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -995,7 +969,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row27'>
-        <div className='row-name'>27</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -1033,7 +1006,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row28'>
-        <div className='row-name'>28</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -1071,7 +1043,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row29'>
-        <div className='row-name'>29</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -1109,7 +1080,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row30'>
-        <div className='row-name'>30</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -1147,7 +1117,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row31'>
-        <div className='row-name'>31</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -1185,7 +1154,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row32'>
-        <div className='row-name'>32</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
@@ -1223,7 +1191,6 @@ const Bulbasaur = () => {
         <div className='blank-pixel'></div>
       </div>
       <div className='row33'>
-        <div className='row-name'>33</div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>
         <div className='blank-pixel'></div>

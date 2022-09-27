@@ -17,11 +17,6 @@
   padding: 5em;
 }
 
-.row-name {
-  @include heightAndWidth($height, $width);
-  color: #fff;
-  border: 2px solid red;
-}
 
 .row1, 
 .row2, 
@@ -80,7 +75,7 @@
 .blank-pixel {
   @include heightAndWidth($height, $width);
   @include border(2px solid #333, none);
-  border: 2px solid red;
+  @include border(2px solid none, none);
 }
 
 .green-1 {
