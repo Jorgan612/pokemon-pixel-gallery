@@ -19,15 +19,15 @@ nav {
   @include heightAndWidth(5vh, 10vw);
   margin: 10px;
   font-size: 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px #000;
 }
 
 .nav-bulbasaur {
   @include border(2px solid #184a4a, none);
-  border-radius: 20px;
   background-color: #73ac31;
   color: #184a4a;
-  font-weight: bolder;
-  box-shadow: 2px 2px 3px #000;
 }
 
 .nav-bulbasaur:hover {
@@ -35,6 +35,61 @@ nav {
   border-radius: 20px;
   background-color: #62d5b4;
   color: #ac0031;
-  font-weight: bolder;
+  transition: 1s;
+}
+
+.nav-charmander {
+  @include border(2px solid #ffd508, none);
+  background-color: #f6a400;
+  color: #e63900;
+}
+
+.nav-charmander:hover {
+  @include border(2px solid #fff, none);
+  border-radius: 20px;
+  background-color: #de5239;
+  color: #ffd57b;
+  transition: 1s;
+}
+
+.nav-squirtle {
+  @include border(2px solid #8bc5cd, none);
+  background-color: #b4e6ee;
+  color: #297383;
+}
+
+.nav-squirtle:hover {
+  @include border(2px solid #b4e6ee, none);
+  border-radius: 20px;
+  background-color: #297383;
+  color: #8bc5cd;
+  transition: 1s;
+}
+
+.nav-pikachu {
+  @include border(2px solid #292929, none);
+  background-color: #fff6a4;
+  color: #292929;
+}
+
+.nav-pikachu:hover {
+  @include border(2px solid #41414a, none);
+  border-radius: 20px;
+  background-color: #c52018;
+  color: #fff6a4;
+  transition: 1s;
+}
+
+.nav-lapras {
+  @include border(2px solid #f6eee6, none);
+  background-color: #73c5f6;
+  color: #184152;
+}
+
+.nav-lapras:hover {
+  @include border(2px solid #73c5f6, none);
+  border-radius: 20px;
+  background-color: #184152;
+  color: #f6eee6;
   transition: 1s;
 }
