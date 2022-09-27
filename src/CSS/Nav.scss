@@ -1,3 +1,6 @@
+@import '_mixins.scss';
+@import '_variables.scss';
+
 nav {
   display: flex;
   align-items: center;
@@ -6,4 +9,32 @@ nav {
   background-color: rgb(76, 75, 75);
   color: #fff;
   box-shadow: 5px 5px #000;
+}
+
+.app-title {
+  font-size: 2em;
+}
+
+.btn {
+  @include heightAndWidth(5vh, 10vw);
+  margin: 10px;
+  font-size: 20px;
+}
+
+.nav-bulbasaur {
+  @include border(2px solid #184a4a, none);
+  border-radius: 20px;
+  background-color: #73ac31;
+  color: #184a4a;
+  font-weight: bolder;
+  box-shadow: 2px 2px 3px #000;
+}
+
+.nav-bulbasaur:hover {
+  @include border(2px solid #fff, none);
+  border-radius: 20px;
+  background-color: #62d5b4;
+  color: #ac0031;
+  font-weight: bolder;
+  transition: 1s;
 }
