@@ -1,0 +1,11 @@
+@import '_mixins.scss';
+@import '_variables.scss';
+
+
+
+.pokemon-container {
+  @include flexbox(column, flex-start, center);
+  @include heightAndWidth(200vh, 80vw);
+  background-color: #333;
+  padding: 5em;
+}

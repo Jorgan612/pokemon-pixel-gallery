@@ -1,4 +1,7 @@
+@import '_mixins.scss';
+
 .App {
+  @include flexbox(none, none, none);
   box-sizing: border-box;
   margin: 0;
   padding: 0;

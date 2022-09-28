@@ -2,9 +2,8 @@
 @import '_variables.scss';
 
 nav {
-  display: flex;
-  align-items: center;
-  height: 10vh;
+  @include flexbox(column, none, center);
+  @include heightAndWidth(200vh, 20vw);
   padding: 10px;
   background-color: #4c4b4b;
   color: #fff;
@@ -12,6 +11,8 @@ nav {
 }
 
 .app-title {
+  margin: 20px;
+  text-align: center;
   font-size: 2em;
 }
 
@@ -22,6 +23,10 @@ nav {
   font-weight: bolder;
   border-radius: 20px;
   box-shadow: 2px 2px 3px #000;
+}
+
+.pokemon-btn-div {
+  @include flexbox(column, none, center);
 }
 
 .nav-home {

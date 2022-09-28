@@ -1,7 +1,5 @@
-// import './_variables.scss'
 @import '_mixins.scss';
 @import '_variables.scss';
-@import '_BulbaVariables.scss';
 
 
 * {
@@ -12,45 +10,22 @@
 
 .pokemon-container {
   @include flexbox(column, flex-start, center);
-  @include heightAndWidth(200vh, 100vw);
+  @include heightAndWidth(200vh, 80vw);
   background-color: #333;
   padding: 5em;
 }
 
-
-.row1, 
-.row2, 
-.row3,
-.row4,
-.row5,
-.row6,
-.row7,
-.row8,
-.row9,
-.row10,
-.row11,
-.row12,
-.row13,
-.row14,
-.row15,
-.row16,
-.row17,
-.row18,
-.row19,
-.row20,
-.row21,
-.row22,
-.row23,
-.row24,
-.row25,
-.row26,
-.row27,
-.row28,
-.row29,
-.row30,
-.row31,
-.row32,
-.row33 {
+.row1, .row2, .row3,
+.row4, .row5, .row6,
+.row7, .row8, .row9,
+.row10, .row11, .row12,
+.row13, .row14, .row15,
+.row16, .row17, .row18,
+.row19, .row20, .row21,
+.row22, .row23, .row24,
+.row25, .row26, .row27,
+.row28, .row29, .row30,
+.row31, .row32, .row33 {
   display: flex;
 }
 
@@ -83,7 +58,7 @@
   @include border(2px solid #bdff73, none);
   background-color: #bdff73;
 }
-// WHAT IS COLOR GREEN 2
+
 .green-2 {
   @include heightAndWidth($height, $width);
   @include border(2px solid #a4d541, none);

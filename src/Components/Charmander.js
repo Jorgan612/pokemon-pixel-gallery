@@ -2,7 +2,9 @@
 
 const Charmander = () => {
   return (
-    <h1>Charmander!!</h1>
+    <div className="pokemon-container">
+      <p>This is where Charmander goes!</p>
+    </div>
   )
 }
 

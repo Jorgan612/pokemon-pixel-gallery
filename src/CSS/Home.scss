@@ -3,8 +3,8 @@
 
 
 .home-page-div {
-  @include flexbox(none, center, center);
-  @include heightAndWidth(90vh, 100vw);
+  @include flexbox(none, center, none);
+  @include heightAndWidth(200vh, 80vw);
   background-color: #323131;
 }
 
