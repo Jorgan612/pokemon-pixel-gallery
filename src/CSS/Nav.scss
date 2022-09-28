@@ -6,7 +6,7 @@ nav {
   align-items: center;
   height: 10vh;
   padding: 10px;
-  background-color: rgb(76, 75, 75);
+  background-color: #4c4b4b;
   color: #fff;
   box-shadow: 5px 5px #000;
 }
@@ -22,6 +22,19 @@ nav {
   font-weight: bolder;
   border-radius: 20px;
   box-shadow: 2px 2px 3px #000;
+}
+
+.nav-home {
+  @include border(2px solid #83e6d5, none);
+  background-color: #5acdbd;
+  color: #10414a;
+}
+
+.nav-home:hover {
+  @include border(2px solid #83e6d5, none);
+  background-color: #10414a;
+  color: #5acdbd;
+  transition: 1s;
 }
 
 .nav-bulbasaur {
@@ -45,7 +58,7 @@ nav {
 }
 
 .nav-charmander:hover {
-  @include border(2px solid #fff, none);
+  @include border(2px solid #f6a400, none);
   border-radius: 20px;
   background-color: #de5239;
   color: #ffd57b;
@@ -73,9 +86,9 @@ nav {
 }
 
 .nav-pikachu:hover {
-  @include border(2px solid #41414a, none);
+  @include border(2px solid #fff6a4, none);
   border-radius: 20px;
-  background-color: #c52018;
+  background-color: #292929;
   color: #fff6a4;
   transition: 1s;
 }

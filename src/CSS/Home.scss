@@ -1,0 +1,13 @@
+@import '_mixins.scss';
+@import '_variables.scss';
+
+
+.home-page-div {
+  @include flexbox(none, center, center);
+  @include heightAndWidth(90vh, 100vw);
+  background-color: #323131;
+}
+
+.home-page-img {
+  @include heightAndWidth(90vh, 50vw);
+}

@@ -1,8 +1,12 @@
+import '../CSS/Home.scss';
+import pokeball from '../Assets/flat-pokeball.png';
 
 
 const Home = () => {
   return (
-    <img src='./Assets/flat-pokeball.png' alt='pokeball'/>
+    <div className='home-page-div'>
+      <img className="home-page-img" src={pokeball} alt='pokeball'/>
+    </div>
   )
 
 }
