@@ -24,7 +24,7 @@
 
 ## Illustrations
 
-![Bulbasaur]('pixel-bulbasaur.png')
+![Bulbasaur]('./Assets/pixel-Bulbasaur.png')
 
 
 ## Install + Setup
