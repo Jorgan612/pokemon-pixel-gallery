@@ -24,7 +24,7 @@
 
 ## Illustrations
 
-![Bulbasaur]('./Assets/pixel-Bulbasaur.png')
+![pixel-bulbasaur](https://user-images.githubusercontent.com/83175748/193126721-03408c51-8674-4b25-9f9a-e3f709f1ad55.png)
 
 
 ## Install + Setup
