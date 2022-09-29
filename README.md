@@ -1,5 +1,7 @@
 # Pokemon Pixel Gallery
 
+This project is currently a work in progress. Please check back in for more updates coming soon!
+
 
 ## Table of Contents
   - [Abstract](#abstract)
