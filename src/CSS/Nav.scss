@@ -30,15 +30,15 @@ nav {
 }
 
 .nav-home {
-  @include border(2px solid #83e6d5, none);
-  background-color: #5acdbd;
-  color: #10414a;
+  @include border(2px solid #000, none);
+  background-color: #E50F0F;
+  color: #fff;
 }
 
 .nav-home:hover {
-  @include border(2px solid #83e6d5, none);
-  background-color: #10414a;
-  color: #5acdbd;
+  @include border(2px solid #ac0031, none);
+  background-color: #fff;
+  color: #ac0031;
   transition: 1s;
 }
 
