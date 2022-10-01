@@ -1,5 +1,7 @@
 # Pokemon Pixel Gallery
 
+This project is currently a work in progress. Please check back in for more updates coming soon!
+
 
 ## Table of Contents
   - [Abstract](#abstract)
@@ -23,8 +25,8 @@
   - React Router v6
 
 ## Illustrations
-
-![Bulbasaur]('./Assets/pixel-Bulbasaur.png')
+![pixel-gallery-home-screen](https://user-images.githubusercontent.com/83175748/193126846-2c7fced5-7038-4236-adc9-b6b10d0f5b6f.png)
+![pixel-bulbasaur](https://user-images.githubusercontent.com/83175748/193126721-03408c51-8674-4b25-9f9a-e3f709f1ad55.png)
 
 
 ## Install + Setup
