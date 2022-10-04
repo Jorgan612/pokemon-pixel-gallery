@@ -96,6 +96,12 @@
 
 .tail-2 {
   @include heightAndWidth($height, $width);
+  @include border(2px solid #f6a400, none);
+  background-color: #f6a400;
+}
+
+.tail-3 {
+  @include heightAndWidth($height, $width);
   @include border(2px solid #e63900, none);
   background-color: #e63900;
 }
