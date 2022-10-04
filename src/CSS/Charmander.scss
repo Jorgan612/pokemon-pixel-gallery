@@ -9,3 +9,93 @@
   background-color: #333;
   padding: 5em;
 }
+
+.row1 {
+  display: flex;
+}
+
+.blank-pixel {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #333, none);
+  @include border(2px solid none, none);
+}
+
+.black {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid $black, none);
+  background-color: $black;
+}
+
+.white {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid $white, none);
+  background-color: $white;
+}
+
+
+.tan-1 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #ffd57b, none);
+  background-color: #ffd57b;
+}
+
+.tan-2 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #ffc562, none);
+  background-color: #ffc562;
+}
+
+.tan-3 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #e6ac5a, none);
+  background-color: #e6ac5a;
+}
+
+.orange-1 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #ff9441, none);
+  background-color: #ff9441;
+}
+
+.orange-2 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #de5239, none);
+  background-color: #de5239;
+}
+
+.orange-3 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #8b2900, none);
+  background-color: #8b2900;
+}
+
+.blue-1 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #31acee, none);
+  background-color: #31acee;
+}
+
+.blue-2 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #188bb4, none);
+  background-color: #188bb4;
+}
+
+.blue-3 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #08398b, none);
+  background-color: #08398b;
+}
+
+.tail-1 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #ffd508, none);
+  background-color: #ffd508;
+}
+
+.tail-2 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #e63900, none);
+  background-color: #e63900;
+}
+

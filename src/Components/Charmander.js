@@ -1,9 +1,13 @@
-
+import '../CSS/Charmander.scss';
 
 const Charmander = () => {
+  // Charmander is 38 pixels wide
   return (
     <div className="pokemon-container">
-      <p>This is where Charmander goes!</p>
+      <div className='row1'>
+        <div className='blank-pixel'>1</div>
+        <div className='blank-pixel'></div>
+      </div>
     </div>
   )
 }
