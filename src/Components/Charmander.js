@@ -7,6 +7,43 @@ const Charmander = () => {
       <div className='row1'>
         <div className='blank-pixel'>1</div>
         <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
+        <div className='blank-pixel'></div>
       </div>
     </div>
   )
