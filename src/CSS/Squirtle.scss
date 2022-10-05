@@ -1,11 +1,37 @@
 @import '_mixins.scss';
 @import '_variables.scss';
 
-
-
 .pokemon-container {
   @include flexbox(column, flex-start, center);
   @include heightAndWidth(200vh, 80vw);
   background-color: #333;
   padding: 5em;
+}
+
+.row42 {
+  display: flex;
+}
+
+.squirtle-1 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #b4e6ee, none);
+  background-color: #b4e6ee;
+}
+
+.squirtle-2 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #8bc5cd, none);
+  background-color: #8bc5cd;
+}
+
+.squirtle-3 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #5a9ca4, none);
+  background-color: #5a9ca4;
+}
+
+.squirtle-4 {
+  @include heightAndWidth($height, $width);
+  @include border(2px solid #297383, none);
+  background-color: #297383;
 }

@@ -22,25 +22,6 @@
   display: flex;
 }
 
-.blank-pixel {
-  @include heightAndWidth($height, $width);
-  @include border(2px solid #333, none);
-  color: #fff;
-}
-
-.black {
-  @include heightAndWidth($height, $width);
-  @include border(2px solid $black, none);
-  background-color: $black;
-}
-
-.white {
-  @include heightAndWidth($height, $width);
-  @include border(2px solid $white, none);
-  background-color: $white;
-}
-
-
 .tan-1 {
   @include heightAndWidth($height, $width);
   @include border(2px solid #ffd57b, none);

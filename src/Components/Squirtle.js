@@ -1,7 +1,50 @@
+import '../CSS/Squirtle.scss';
+
 const Squirtle = () => {
+  // 38 pixels wide
   return (
     <div className="pokemon-container">
-      <p>This is where Squirtle goes!</p>
+        <div className='row1'>
+          <div className='blank-pixel'>1</div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+          <div className='blank-pixel'></div>
+        </div>
     </div>
   )
 }
