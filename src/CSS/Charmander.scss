@@ -24,8 +24,8 @@
 
 .blank-pixel {
   @include heightAndWidth($height, $width);
-  // @include border(2px solid #333, none);
-  @include border(2px solid red, none);
+  @include border(2px solid #333, none);
+  // @include border(2px solid red, none);
   color: #fff;
 }
 
