@@ -40,7 +40,7 @@ This project is currently a work in progress. Please check back in for more upda
 
 ## Wins
 	- Creating adorable pokemon pixel art!
-	- Implenting React Router v6
+	- Implementing React Router v6
 
 ## Challenges + Improvements
 	- Future Iterations
